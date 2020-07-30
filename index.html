@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Github</title>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+  <body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <!-- Some thing seems wrong here -->
+            <img src="./assets/txtLogo.png " id="txtLogo" >
+        </div>
+
+        <div class="grid-item">
+            
+            <button type="button" onclick="myFunctiox()">red</button>
+            <button type="button" onclick="myFunction()">blue</button>
+
+
+            <script>
+              function myFunctiox() {
+                document.getElementById("textChange").style.color = "red";
+                
+              }
+</script>
+
+<script>
+  function myFunction() {
+    document.getElementById("textChange").style.color = "blue";
+  }
+</script>
+
+        </div>
+
+        <div class="grid-item" id="thirdBox">
+            <p id="textChange">Change my font color</p>
+        </div>
+    </div>
+
+    <script src="./javascript/main.js"></script>
+  </body>
+</html>
+
+
+
